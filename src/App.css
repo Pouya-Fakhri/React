@@ -1,0 +1,52 @@
+main{
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:  linear-gradient(to right, #309975, #58B368);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.left-part{
+    margin-top: 5%;
+}
+
+.left-part .option-container{
+    display: flex;
+    gap: 10px
+    ;
+}
+
+.left-part .option-container h2{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.left-part .option-container p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 150px;
+}
+h1{
+    width: 600px;
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.right-part img{
+    width: 1200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
